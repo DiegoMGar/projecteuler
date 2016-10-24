@@ -27,10 +27,10 @@ def getPrimeFactors(num):
   return lista;
 
 print("Problem 3 of Project Euler: Largest prime factor.\n");
-print("\tTesting prime factors of 13195:\n");
-print(getPrimeFactors(13195));
+print("\tTesting prime factors of 13195:");
+print("\t"+str(getPrimeFactors(13195)));
 print("\n");
-print("\tTesting prime factors of 600851475143:\n");
-print(getPrimeFactors(600851475143));
+print("\tTesting prime factors of 600851475143:");
+print("\t"+str(getPrimeFactors(600851475143)));
 print("\n");
 print("\tEND***");
