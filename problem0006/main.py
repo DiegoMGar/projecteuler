@@ -13,3 +13,6 @@ def squareofsum(num):
 print("Euler project: problem 6.");
 ten = squareofsum(10)-sumofsquares(10);
 print("Result of the ten first natural numbers: "+str(ten));
+print("");
+hundred = squareofsum(100)-sumofsquares(100);
+print("Result of the one hundred first natural numbers: "+str(hundred));
