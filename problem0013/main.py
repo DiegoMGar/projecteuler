@@ -103,13 +103,19 @@ print("Work out the first ten digits of the sum of the following one-hundred 50-
 input("Ready?");
 resultSum = [];
 recargo = 0;
-for x in range(0,50):
+rango = reversed(range(0,50));
+for x in rango:
   sum = recargo;
   for y in nums:
-    sum += int(nums[x]);
+    sum += int(y[x]);
   recargo = sum//10;
   resultSum.append(sum%10);
 if recargo>0 : resultSum.append(recargo);
 reversedResultSum = reversed(resultSum);
+stringResult = "";
+count=0;
 for x in reversedResultSum:
-  print(x);
+  stringResult+=str(x);
+  count+=1;
+  if count==9: stringResult+=" ";
+print(stringResult);
