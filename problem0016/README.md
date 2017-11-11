@@ -2,4 +2,4 @@
 
 ![problem](problem0016.png)
 
-Solution: ?
+Solution: 1366
