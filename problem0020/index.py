@@ -11,4 +11,4 @@ if __name__ == "__main__":
     resultado = 0
     for n in list(numFactorial):
         resultado += int(n)
-    print("La suma del factorial de {}({}) es {}".format(num, numFactorial, resultado))
+    print(f"La suma del factorial de {num}({numFactorial}) es {resultado}")
