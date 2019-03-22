@@ -1,4 +1,4 @@
-## Problem 1 - Multiples of 3 and 5
+## Problem 20 - Factorial digit sum
 
 n! means n × (n − 1) × ... × 3 × 2 × 1  
   
