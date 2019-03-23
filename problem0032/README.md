@@ -8,4 +8,4 @@ Find the sum of all products whose multiplicand/multiplier/product identity can 
   
 _HINT: Some products can be obtained in more than one way so be sure to only include it once in your sum._
 
-**Solution ?**
+**Solution 45228**
