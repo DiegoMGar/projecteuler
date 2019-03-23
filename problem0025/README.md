@@ -1,4 +1,4 @@
-# Problem 23 - 1000-digit Fibonacci number  
+# Problem 25 - 1000-digit Fibonacci number  
   
 
 The Fibonacci sequence is defined by the recurrence relation:
