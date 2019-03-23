@@ -22,6 +22,7 @@ def simplify_division(numerator, denominator):
 
 
 if __name__ == "__main__":
+    listaOperaciones = []
     for x in range(10, 100):
         for y in range(x + 1, 100):
             simple = simplify_division(str(x), str(y))
@@ -35,3 +36,4 @@ if __name__ == "__main__":
             # print(int(simple[0]) / int(simple[1]))
             if x / y == int(simple[0]) / int(simple[1]):
                 print(f"{x}/{y} => ", simpleStr)
+                listaOperaciones.append([x, y])
